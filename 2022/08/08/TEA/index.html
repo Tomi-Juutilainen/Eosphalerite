@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="en">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.5.6 -->
+    <script>
+        window.materialVersion = "1.5.6"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0',
+            '1.5.2',
+            '1.5.5'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+    <link rel="dns-prefetch" href="https://eosphalerite.disqus.com"/>
+
+
+
+
+
+    <link rel="dns-prefetch" href="../fonts"/>
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            6.1 から始まる絶アレキ（TEA） | 
+        
+        Eosphalerite
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/Sphalerite_Icon.png">
+    <link rel="icon" href="/img/Sphalerite_Icon.png">
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" itemprop="description" content="A Personal blog of a FFXIV player.">
+    <meta name="keywords" content=",絶シリーズ,絶アレキ,攻略">
+    <meta name="theme-color" content="#413583">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.en.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?NKhlKQkXw/c66TR5p4wO+w==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: sans-serif, "Sarasa UI J", "Sarasa UI TC";
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #0B0858;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #413583 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #413583 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #413583 !important;
+  }
+
+  .toTop {
+    background: #B3B3B3 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #B3B3B3;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #B3B3B3;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #B3B3B3;
+  }
+
+  .post-toc a:hover {
+    color: #0B0858;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-image: url(/img/ffxiv_dx11_2022-05-24_09-32-53-462_edited_resized.jpg);
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="../fonts/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Eosphalerite">
+    <meta name="msapplication-starturl" content="https://eosphalerite.com/2022/08/08/TEA/">
+    <meta name="msapplication-navbutton-color" content="#413583">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Eosphalerite">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/img/Sphalerite_Icon.png">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="https://eosphalerite.com/2022/08/08/TEA/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="6.1 から始まる絶アレキ（TEA） | Eosphalerite">
+    <meta property="og:image" content="/img/Sphalerite_Icon.png">
+    <meta property="og:description" content="A Personal blog of a FFXIV player.">
+    <meta property="og:article:tag" content="絶シリーズ"> <meta property="og:article:tag" content="絶アレキ"> <meta property="og:article:tag" content="攻略"> 
+
+    
+        <meta property="article:published_time" content="Mon Aug 08 2022 17:21:13 GMT+0900">
+        <meta property="article:modified_time" content="Mon Aug 08 2022 17:26:52 GMT+0100">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="https://eosphalerite.com/2022/08/08/TEA/index.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://eosphalerite.com/2022/08/08/TEA/index.html",
+    "headline": "6.1 から始まる絶アレキ（TEA）",
+    "datePublished": "Mon Aug 08 2022 17:21:13 GMT+0900",
+    "dateModified": "Mon Aug 08 2022 17:26:52 GMT+0100",
+    "author": {
+        "@type": "Person",
+        "name": "Tomi Juutilainen",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.jpg"
+        },
+        "description": "Another Wondrous Tails"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Eosphalerite",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/Sphalerite_Icon.png"
+        }
+    },
+    "keywords": ",絶シリーズ,絶アレキ,攻略",
+    "description": "A Personal blog of a FFXIV player.",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+    
+    
+
+    <!-- Custom Head -->
+    
+
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span id="MD-burger-id" class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E3%82%B8%E3%83%A7%E3%83%96%E6%A7%8B%E6%88%90"><span class="post-toc-text">ジョブ構成</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E8%A3%85%E5%82%99%E6%BA%96%E5%82%99"><span class="post-toc-text">装備準備</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E6%94%BB%E7%95%A5%E6%B3%95"><span class="post-toc-text">攻略法</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#P1"><span class="post-toc-text">P1</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E3%82%B5%E3%82%A4%E3%82%B3%E3%83%AD"><span class="post-toc-text">サイコロ</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#P2"><span class="post-toc-text">P2</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E3%83%81%E3%83%A3%E3%82%AF%E3%83%A9%E3%83%A0%E8%AA%98%E5%B0%8E"><span class="post-toc-text">チャクラム誘導</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E3%83%8A%E3%82%A4%E3%82%B5%E3%82%A4-%EF%BC%91-%E5%9B%9E%E7%9B%AE"><span class="post-toc-text">ナイサイ １ 回目</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E6%B0%B4%E9%9B%B7-1-%E5%9B%9E%E7%9B%AE"><span class="post-toc-text">水雷 1 回目</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E3%83%9F%E3%82%B5%E3%82%A4%E3%83%AB%E5%87%A6%E7%90%86"><span class="post-toc-text">ミサイル処理</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E5%87%A6%E7%90%86"><span class="post-toc-text">カウント処理</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E3%83%8A%E3%82%A4%E3%82%B5%E3%82%A4-2-%E5%9B%9E%E7%9B%AE"><span class="post-toc-text">ナイサイ 2 回目</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E6%B0%B4%E9%9B%B7-2-%E5%9B%9E%E7%9B%AE"><span class="post-toc-text">水雷 2 回目</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E3%83%AA%E3%83%9F%E3%83%83%E3%83%88%E3%82%AB%E3%83%83%E3%83%88"><span class="post-toc-text">リミットカット</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E3%83%8A%E3%82%A4%E3%82%B5%E3%82%A4-3-%E5%9B%9E%E7%9B%AE"><span class="post-toc-text">ナイサイ 3 回目</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E6%B0%B4%E9%9B%B7-3-%E5%9B%9E%E7%9B%AE"><span class="post-toc-text">水雷 3 回目</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E3%83%97%E3%83%AD%E3%83%9A%E3%83%A9-%E3%83%8A%E3%82%A4%E3%82%B5%E3%82%A4%EF%BC%88%E6%9C%80%E7%B5%82%EF%BC%89"><span class="post-toc-text">プロペラ + ナイサイ（最終）</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E3%83%95%E3%82%A9%E3%83%88%E3%83%B3%E3%81%8B%E3%82%89%E6%99%82%E9%96%93%E5%88%87%E3%82%8C"><span class="post-toc-text">フォトンから時間切れ</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#P3"><span class="post-toc-text">P3</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E6%99%82%E9%96%93%E5%81%9C%E6%AD%A2"><span class="post-toc-text">時間停止</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E6%BD%9C%E8%88%AA"><span class="post-toc-text">潜航</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E6%96%AD%E7%B5%B6"><span class="post-toc-text">断絶</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E3%81%90%E3%82%8B%E3%81%90%E3%82%8B-%E5%B1%A5%E8%A1%8C%E6%8A%80"><span class="post-toc-text">ぐるぐる + 履行技</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#P4"><span class="post-toc-text">P4</span></a></li></ol>
+    </ul>
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/pic/thumb/ffxiv_dx11_2022-07-29 23-53-43-172_resized.jpg)">
+    
+            <p class="article-headline-p">
+                6.1 から始まる絶アレキ（TEA）
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Tomi Juutilainen</strong>
+        <span>Aug 08, 2022</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">Read this article on other devices</li>
+    
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACYElEQVR42u3aQVLDMBAEwPz/0/AAiDOzioSB9olKgq3Wwbs1q8fHn74eeHh4eHh4eHh4N+M94uubG335Nvnls3s++6RdGx4eHt4Z3otX7eVvvvJa9vXd2rXh4eHhneQli7v+fVsYcl6+cXh4eHh35rX3edaI50UCDw8P7/fy2tf6rIHGw8PDuz9vJW7Ig9fr8rAelODh4eGd4bXLOvn30fkeHh4eXsCrjzQlTW3w0m9/OTx0hYeHh7eBl7+Ir8tJ23zPhl7R3fDw8PA28/YVhrYMJAXmRi01Hh7eP+bNwohZCNuGEfmoDA8PD+8877qdzbejHVy1R7KGhQEPDw9vM2/9sNSs1Z6VEzw8PLyf5a0MuuoB/+iTpK3Hw8PD283Lx1qzEtK+3JOw48W3eHh4eJt5+dLzYVVbTtZHZXh4eHjneSuv8ne15klEEv0vHh4e3hFePshfOUYwiyeSFhwPDw/vJG82zt83JEu2o2ip8fDw8Dbwdrys27h2fZyGh4eHd5KXL719WLKUfCOKgoSHh4e3mTcbXM2C4HYY1m4NHh4e3kleGz20Ie+sFLUbjYeHh3cHXr7cFVgd1LbzPTw8PLzNvFnLuxJhrEe3eHh4eCd57ZUHrHkxyEPhaNPx8PDwNvNmj1wJEZLnrmwlHh4e3hnerBjMDgrMIoylM2V4eHh423j5CzoPatvDB+uRBB4eHt6defnAbPaUtonHw8PDuzOvDggui0FL2l4Y8PDw8N4aRlw3vu8NL4atPB4eHt4R3uyAVBKztuO09SgEDw8Pbzfv7114eHh4eHh4eHg3uD4BubLEcNQ2SWYAAAAASUVORK5CYII=">
+    
+</ul>
+
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-none-link" href="/tags/%E6%94%BB%E7%95%A5/" rel="tag">攻略</a></li><li class="mdl-menu__item"><a class="post_tag-none-link" href="/tags/%E7%B5%B6%E3%82%A2%E3%83%AC%E3%82%AD/" rel="tag">絶アレキ</a></li><li class="mdl-menu__item"><a class="post_tag-none-link" href="/tags/%E7%B5%B6%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/" rel="tag">絶シリーズ</a>
+    </ul>
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=6.1 から始まる絶アレキ（TEA）&url=https://eosphalerite.com/2022/08/08/TEA/index.html&via=Tomi Juutilainen" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://eosphalerite.com/2022/08/08/TEA/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://eosphalerite.com/2022/08/08/TEA/index.html&text=6.1 から始まる絶アレキ（TEA）" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Telegram
+            </li>
+        </a>
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>ここでは弊固定が採用した攻略法などを記載する。</p>
+<h2 id="ジョブ構成"><a href="#ジョブ構成" class="headerlink" title="ジョブ構成"></a>ジョブ構成</h2><p>暗ガ白学竜忍詩赤</p>
+<h2 id="装備準備"><a href="#装備準備" class="headerlink" title="装備準備"></a>装備準備</h2><p>サブステとメインステの掛け合いになるが基本的には以下の組み合わせを採用。</p>
+<ul>
+<li>武器　RW</li>
+<li>胴脚 シンク</li>
+<li>頭手足　ノルヴラント</li>
+<li>アクセ　エデングレースもしくはディープシャドウ</li>
+</ul>
+<p>ただしシンク装備のほうはメインステータスが高くなる為 HP も当然高くなる。タンクはシンクアクセでも良いかもしれません。</p>
+<h2 id="攻略法"><a href="#攻略法" class="headerlink" title="攻略法"></a>攻略法</h2><ul>
+<li>リキッド：みんとっと（ほぼセパレ）</li>
+<li>サイコロ 1211 式</li>
+<li>2 体フェーズ：キメラ（みんとっと、ぬけまる、カウント D3D4 調整法）</li>
+<li>プライム：ぬけまる（ハムカツ式）</li>
+<li>パレキ：みんとっと</li>
+</ul>
+<h2 id="P1"><a href="#P1" class="headerlink" title="P1"></a>P1</h2><p>みんとっと</p>
+<p>弊固定では最初の水誘導のところ H1 H2 の担当を交換している。また、学者の場合は妖精の場所にもよるが H1（真ん中の水担当）と ST にヒールが届かないこともあるのでいつも死にそうではある。ただしそれで事故ったことはないので別に気にする必要はない。</p>
+<p>窒息はマウスオーバーのマクロを使うと簡単。</p>
+<h2 id="サイコロ"><a href="#サイコロ" class="headerlink" title="サイコロ"></a>サイコロ</h2><p>1211 式</p>
+<p>6 番は照準に焼かれやすいため、5 番は本来 5 番と 7 番の位置の真ん中あたりに立つとやりやすい。</p>
+<p>6 番は必ず床模様の一歩先に立つこと（図の白地の位置）。</p>
+<p><img src="https://eosphalerite.com/pic/TEA/P1/e3ed2f4d9a2423545efae854af4a7352742a0c33.png" alt="6"></p>
+<p>また、みんながなるべく早く中央に戻れるため、8 番は外周寄りに立つ。</p>
+<p><img src="https://eosphalerite.com/pic/TEA/P1/388e898e07be0e1220c4b105d593d12dae49f961.png" alt="8"></p>
+<p>8 番がキャスヒラの場合はヒール間に合わない事故があったのでタンクが短バフ、ヒラがアビバリアなり HoT なりを投げといたほうが安全。</p>
+<p>また、弊固定でも一部の人しかやってないが、1 番と 2 番の人はショットカットでみんなと合流できる(青ルート)。</p>
+<p><img src="https://eosphalerite.com/pic/TEA/P1/d7bc301b2bace33efff426e9bbbd8b1872d7c0e0.png" alt="ShortCut"></p>
+<p>通常ルートの時移動が遅くと 3 → 4 の突進に巻き込まれることは防げられるが、照準に焼かれるリスクもあるので結論としては微妙。一番大事なのはスプリントと個人的には思う。</p>
+<h2 id="P2"><a href="#P2" class="headerlink" title="P2"></a>P2</h2><h3 id="チャクラム誘導"><a href="#チャクラム誘導" class="headerlink" title="チャクラム誘導"></a>チャクラム誘導</h3><p>サイコロ終わったところで散開位置について良い。チャクラム誘導のため離れすぎず床にある緑の円模様上に経つと安全。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">/p 基本散開</span><br><span class="line">/p 　D3 MT D1</span><br><span class="line">/p 　H1　　H2</span><br><span class="line">/p 　D2 ST D4</span><br></pre></td></tr></table></figure>
+
+<h3 id="ナイサイ-１-回目"><a href="#ナイサイ-１-回目" class="headerlink" title="ナイサイ １ 回目"></a>ナイサイ １ 回目</h3><p>フォトンで HP が 1 になる辺りで DPS が反時計回りにタンヒラに移す<br>※ D2 はスピンクラッシャー回避後に受け渡し</p>
+<h3 id="水雷-1-回目"><a href="#水雷-1-回目" class="headerlink" title="水雷 1 回目"></a>水雷 1 回目</h3><ul>
+<li>雷: MT と対象 DPS</li>
+<li>水: 対象ヒラと他の DPS 3 人</li>
+</ul>
+<p>動きはヒラが 2 パターンで、 DPS は 4 パターンあるけどそれぞれ 2 パターンの動き。</p>
+<p><img src="https://eosphalerite.com/pic/TEA/P2/1-1D3D4_D1.png"></p>
+<p><img src="https://eosphalerite.com/pic/TEA/P2/1-2D3D4_D2.png"></p>
+<p><img src="https://eosphalerite.com/pic/TEA/P2/1-3D3D4_D3.png"></p>
+<p><img src="https://eosphalerite.com/pic/TEA/P2/1-4D3D4_D4.png"></p>
+<p>ここで水処理の DPS の並び順は北から D1＞D3＞D4＞D2 のように事前に決めておくと接触事故が防げられる。</p>
+<p>水ヒーラーは 4 マーカー付近で 1GCD 程度待機すると DPS の邪魔にはならない。</p>
+<h3 id="ミサイル処理"><a href="#ミサイル処理" class="headerlink" title="ミサイル処理"></a>ミサイル処理</h3><p>ぬけまる式。</p>
+<ul>
+<li><p>アースは ST D3処理</p>
+</li>
+<li><p>アイスは対象タンクが D マーカー南北</p>
+</li>
+</ul>
+<h3 id="カウント処理"><a href="#カウント処理" class="headerlink" title="カウント処理"></a>カウント処理</h3><p>D3D4調整法（その他6名の位置を完全固定）</p>
+<ul>
+<li>北：D1＞D4＞D3＞D2：南</li>
+</ul>
+<p>カウントが北側2枚または南側2枚になった場合だけ D3D4 の配置交代</p>
+<p>（D3は東側外からカウント位置へ）</p>
+<p>北側カウント処理よりも D2 の火力低下抑止、またナイサイ二回目～水雷までも移動線が絡まなくなった。</p>
+<p><img src="https://eosphalerite.com/pic/TEA/P2/2-0D3D4.png"></p>
+<p>カウント処理後は ST がフルバフで地雷を処理。</p>
+<p>D2 は殴りに夢中になりすぎて地雷処理に巻き込まれないように</p>
+<h3 id="ナイサイ-2-回目"><a href="#ナイサイ-2-回目" class="headerlink" title="ナイサイ 2 回目"></a>ナイサイ 2 回目</h3><p>D1&#x2F;MT、D2&#x2F;ST 固定。D2 は巻き込まれないよう地雷処理終わるまで待つ。</p>
+<p>D3、D4 は<strong>同じカウント内のヒラ</strong>と交換（1 回目のペアである必要がない）。</p>
+<p>ペアを探す必要がなくなったし移動距離も減るので事故率が大幅に減少。ただし猶予はカウント後 3 秒程度しかないのでカウンタ中に受け渡しても良い。</p>
+<h3 id="水雷-2-回目"><a href="#水雷-2-回目" class="headerlink" title="水雷 2 回目"></a>水雷 2 回目</h3><ul>
+<li><p>雷: MT + 水ヒラ</p>
+</li>
+<li><p>水: DPS 4 名（後のギミックのため水対象は覚えておく）</p>
+</li>
+</ul>
+<p><img src="https://eosphalerite.com/pic/TEA/P2/3-022.png"></p>
+<h3 id="リミットカット"><a href="#リミットカット" class="headerlink" title="リミットカット"></a>リミットカット</h3><p>攻撃が効く範囲はかなり狭いので DPS 全員が直線上に並ぶ。ヒーラーは西側に待機。</p>
+<p>水雷後すぐリミッターカットの配置への移動</p>
+<p><img src="https://eosphalerite.com/pic/TEA/P2/4-02.png"></p>
+<p><img src="https://eosphalerite.com/pic/TEA/P2/4-12A.png"></p>
+<p><img src="https://eosphalerite.com/pic/TEA/P2/4-12B.png"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">/p 　　ジャス</span><br><span class="line">/p 　D1</span><br><span class="line">/p 　　　D4</span><br><span class="line">/p 　　　D3</span><br><span class="line">/p 　　　D2</span><br><span class="line">/p 　　　ST</span><br><span class="line">/p 　　シールド</span><br><span class="line">/p 　　チェイサー</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://eosphalerite.com/pic/TEA/P2/cdd27bf771f1a19a0653fbfa66e8655a6bffd78f.png"></p>
+<h3 id="ナイサイ-3-回目"><a href="#ナイサイ-3-回目" class="headerlink" title="ナイサイ 3 回目"></a>ナイサイ 3 回目</h3><p>ここからは確定デバフが付くのでデバフを見て受け渡す必要がある。</p>
+<p>前半は確定でヒラが受け渡し。</p>
+<p><strong>デバフを見て対象の DPS の横で待つ。シールドが破壊されるくらいで交換</strong></p>
+<p>待たずに即交換すると 4 回目ナイサイ交換前にデバフが消えるのでワイプとなりやすい。</p>
+<p><strong>交換後も、横（待機してた場所）に立つ、タンクに交換しにいく DPS の移動を邪魔しない）</strong></p>
+<p><img src="https://eosphalerite.com/pic/TEA/P2/5-03.png"></p>
+<p>残りの二人はタンクに受け渡しに行く</p>
+<p><img src="https://eosphalerite.com/pic/TEA/P2/6-03.png"></p>
+<h3 id="水雷-3-回目"><a href="#水雷-3-回目" class="headerlink" title="水雷 3 回目"></a>水雷 3 回目</h3><p>ぬけまる式</p>
+<p>水割りを ST にすることで水割り中も火力を継続できる。</p>
+<p>一回目で水対象となった（耐性を持つ）DPS はそのまま氷の裏に移動。ただしヒラと重ならないように注意。特にヒラの一人は D1 と交換した場合。</p>
+<p>雷はヒラ二人で処理。</p>
+<p><img src="https://eosphalerite.com/pic/TEA/P2/7-03.png"></p>
+<p><img src="https://eosphalerite.com/pic/TEA/P2/8-03.png"></p>
+<p>着弾後 ST は D マーカー南に誘導、近接は殴りながらついて行く。</p>
+<p><img src="https://eosphalerite.com/pic/TEA/P2/9-14.png"></p>
+<h3 id="プロペラ-ナイサイ（最終）"><a href="#プロペラ-ナイサイ（最終）" class="headerlink" title="プロペラ + ナイサイ（最終）"></a>プロペラ + ナイサイ（最終）</h3><p>ナイサイ持ちが先に並んで持ってないほうが後に取りに行く。</p>
+<p>タンヒラ持ちの場合はST位置は開けておいて並ぶ。事故防止のためヒラの移動ルートはナイサイ 3 回目の時の南北位置関係を維持し、北のほうのヒラはそのまま氷の裏に、南のヒラは真西に寄って氷をくぐる感じで位置につく。</p>
+<ul>
+<li>並び順は MT &gt; 北のほうのヒラ &gt; 南のほうのヒラ &gt; ST</li>
+</ul>
+<p>DPS持ちの場合、MTヒラはDPS配置完了するまで待機。ヒラは D 横あたりに集まってルートを空ける。STは詠唱みてから受け渡しする。</p>
+<ul>
+<li>並び順の優先度は D1 &gt; 水耐性低下 DPS ＞ もう一人の遠隔 ＞ D2</li>
+</ul>
+<p>全員分の移動ルート</p>
+<p><img src="https://eosphalerite.com/pic/TEA/P2/9-24_.png"></p>
+<p><img src="https://eosphalerite.com/pic/TEA/P2/9-34DPS.png"></p>
+<h3 id="フォトンから時間切れ"><a href="#フォトンから時間切れ" class="headerlink" title="フォトンから時間切れ"></a>フォトンから時間切れ</h3><p>特記すべきことなし</p>
+<p>強いて言えばジャスを殴りすぎない注意。スーパージャンプの詠唱始まったらアポカリが終わるまで死なないのでそれまでに倒さないと時間の余裕がある。逆にそれよりも前に倒したらチェイサーが即時間切れ詠唱始まっちゃうので大体間に合わない。</p>
+<h2 id="P3"><a href="#P3" class="headerlink" title="P3"></a>P3</h2><h3 id="時間停止"><a href="#時間停止" class="headerlink" title="時間停止"></a>時間停止</h3><p>時間停止はぬけまるさんの処理法。ただし動画中でも二種類紹介されたので、弊固定では接近禁止（青線）方角固定式です。青線付いたらタンヒラが確定で西、DPS が確定で東に行く。チェイサーの位置によって近づけたり離れたりする。他の人はジャスチェイサー基準。</p>
+<p><img src="https://eosphalerite.com/pic/TEA/P3/36d548e361eec1cc.png"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">/p ■時間停止</span><br><span class="line">/p 　タンクヒラ　　　　　　　　　  DPS</span><br><span class="line">/p 　　無印・・・ジャスの北　　　　　無印・・・ジャスの南</span><br><span class="line">/p 　　雷　・・・ジャスの側面外周　　雷　・・・ジャスの側面外周</span><br><span class="line">/p 　　青線・・・西赤マルorDマカ　　　 青線・・・東赤マルor②マカ</span><br><span class="line">/p 　　※青線はチェイサー側なら近づく</span><br><span class="line">/p 　　緑線・・・チェイサーの北　　　緑線・・・チェイサーの南</span><br><span class="line">/p ■散開例</span><br><span class="line">/p 　　　　 　TH無　　　　　TH緑</span><br><span class="line">/p 　TH青　［ジャス］　　［チェイサー］　DPS青</span><br><span class="line">/p 　雷2人　  DPS無　　　　DPS緑 </span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="潜航"><a href="#潜航" class="headerlink" title="潜航"></a>潜航</h3><p>基本ぬけまるさん動画に参照。最後のスライド誘導は時間停止と同じ DPS を南に配置すると覚えやすい…らしいのでそれにした。</p>
+<p><img src="https://eosphalerite.com/pic/TEA/P3/5-0.png"></p>
+<h3 id="断絶"><a href="#断絶" class="headerlink" title="断絶"></a>断絶</h3><p>弊固定ではハムカツ式を採用した。</p>
+<p>ただしハムカツさんの動画では 3&#x2F;4 番の人はジャスチェイサーの位置によって交代したりするけどうちでは方角固定で処理した。</p>
+<p><img src="https://eosphalerite.com/pic/TEA/P3/1-114.png"></p>
+<p><img src="https://eosphalerite.com/pic/TEA/P3/1-278A.png"></p>
+<p>8 番の人は 7 の方向に寄っておくと中央集合がやりやすい。</p>
+<p>3&#x2F;4、5&#x2F;6 番の人は三回目の懺悔見てからもう中央集合しても良いので早めに集合するとヒールしやすい。</p>
+<p>1&#x2F;2 番が懺悔踏むときも懺悔の内周側に立つと中央までの距離が少しだけ短くなる。</p>
+<p>特に 5&#x2F;6 番の人はアポカリに焼かれる事故が多かったので、必ずしも赤丸まで走る必要がなく、外周に向く必要もなく、赤丸よりやや南寄りで、外周より気持ちやや北のほうに向くと走りやすい。</p>
+<p>7 番も同じ要領で外周ではなく気持ち南側向くと良いかもしれない。ただし寄りすぎると C 付近で待機する 8 番を巻き込む可能性がある。</p>
+<h3 id="ぐるぐる-履行技"><a href="#ぐるぐる-履行技" class="headerlink" title="ぐるぐる + 履行技"></a>ぐるぐる + 履行技</h3><p>ぐるぐるフェーズは完全に火力チェックなので頑張ってください。軽減をしっかり入れればヒールはそんなにきつくはないのでヒラも少しだけ殴れる。</p>
+<p>P3 最後の履行技はタンク LB と陣と<strong>飯</strong>でギリギリ耐える。</p>
+<p>飯が切れたらキャスヒラは死ぬ。必ず確認。</p>
+<p>事前に HoT をばらまいたら P4 開幕の時は回復をしなくても良い。</p>
+<p>そこの演出はまる 1 分間もするので白魔のリリーは勝手に 3 つ溜まる。演出前に全部消費し切るとミゼリが一発おまけ。</p>
+<h2 id="P4"><a href="#P4" class="headerlink" title="P4"></a>P4</h2><p>最初の静止命令でミスが多かった。火力には余裕があるので停止見えた瞬間から武器を収める（AA も止まる）。</p>
+<p>照準の頭割り&#x2F;散開位置。</p>
+<p><img src="https://eosphalerite.com/pic/TEA/P4/3da005e0a46d4995.png"></p>
+<p>頭割りの優先順位</p>
+<ul>
+<li>タンヒラ組　北：MT＞H1＞H2＞ST：南</li>
+<li>DPS組　北：D3＞D2＞D1＞D4</li>
+</ul>
+<p>基本 ST&#x2F;D3 が調整役。</p>
+<p>かなりぬるいので ３ 人でも意外と割れる。</p>
+<p>ベータの強制移動は稀に離れすぎ事故があったので、対策として闇親がマーカーの真ん中に立つこととした。</p>
+<p><img src="https://eosphalerite.com/pic/TEA/P4/2.png"></p>
+<p>また、光親との接触事故もあったので、光親は A マーカーではなくその延長線上に立つことにした。強制移動後少しだけ余裕があるのでその時接触しない程度近くまで走る。</p>
+<p><img src="https://eosphalerite.com/pic/TEA/P4/fd7c7de2afa17db1.png"></p>
+<p>ベータの集団罰&#x2F;キックからの散開&#x2F;頭割りのところはヒール漏れ事故が多かったのでここは全部事前ヒールにした。</p>
+<p>東に集合するときアサイラム+ミンネ+イルミ+秘策で鼓舞展開と、光親にベニゾンを投げれば、ヒーラーが中央に行かなくてもヒール漏れはしない。</p>
+<p>ヒールワークの例として</p>
+<blockquote>
+<p>セラフィムちゃんを中央に設置<br>照準くる25秒前（強制移動まで10秒程度）に光親にベニゾン、２マカ入るようにアサイラム、2マカ鼓舞展開元にミンネ<br>照準くる20秒前（強制移動まで5秒程度）にイルミして秘策鼓舞展開（2マカ）できればセラフィム<br>強制移動後コンソレ<br>集団罰キック後コンソレ（散開なら2回）<br>白魔道士は適当に捨てラプチャ</p>
+</blockquote>
+<p>散開のかぶり事故も多かったのと、ヒールする必要がなくなったのでヒラは中央に立たなくても良いので、散開はバフ基準で</p>
+<p><img src="https://eosphalerite.com/pic/TEA/P4/whiteboard_image_2.png"></p>
+<p>最後の大審判後の頭割りはかなりきつく、一人落ちても耐えられないので、軽減を厚めにした結果多少の余裕ができた。</p>
+<p>大審判のダメージは約31万（ヒラキャス基準）で</p>
+<blockquote>
+<p>43.9％ の軽減と士気のバリア約 2700、8 人で割ると 19000、7 人で 22200、6 人で 26400、2 人落ちまで許容。<br>37.5％ の軽減だと 8 人で 21300、7 人で 25000、6 人で　29500、1人落ちまで許容。<br>30.5％ の軽減だと 8 人で 24000、7 人で 28000、乱数でヒラレンキャスが落ちる ＝ ギミックミス許されない</p>
+</blockquote>
+<p>したがって</p>
+<blockquote>
+<p>1 回目　リプ　ライト　陣　アドル　牽制　テンパ　43.9％ 軽減　2 人落ちまで許容<br>2 回目　ミッショ　リプ　陣　トルバ　牽制　37.5％ 軽減　1 人落ち許容（+ アサイラム転化秘策士気で 2 人落ち許容） </p>
+</blockquote>
+<p>これで大審判で多少ミスっても即ワイプにはならない。</p>
+<p>特に中央から移動するパターンはパレキがデカすぎてクソ邪魔なので、カメラを逆に近づくことで行く方向が見やすいかもしれない。</p>
+<p>大審判二回目からのヒールは不要。アサイズと捨てラプチャは知らない。</p>
+<p>最後の時の牢獄に入る順番は</p>
+<ul>
+<li>H2＞ST＞MT＞H1＞D3＞D2＞D4＞D1</li>
+</ul>
+<p>LB は即撃ちでも 1 分バースト終わっても良い。あんまり変わらない。</p>
+
+        
+                <blockquote style="margin: 2em 0 0;padding: 0.5em 1em;border-left: 3px solid #F44336;background-color: #F5F5F5;list-style: none;">
+                    <p><strong>
+                         
+                            <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This page is available under the <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> License.
+                        </strong>
+                        <br>
+                        <strong>Link to this article: </strong><a href="https://eosphalerite.com/2022/08/08/TEA/">https://eosphalerite.com/2022/08/08/TEA/</a>
+                    </p>
+                </blockquote>
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'https://eosphalerite.com/2022/08/08/TEA/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://eosphalerite.com/2022/08/08/TEA/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//eosphalerite.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2022/05/25/6-1x-SCH-Guide/" id="post_nav-older" class="next-content">
+            Older
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/ffxiv_dx11_2022-05-24_09-32-53-462_resized.jpg);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/avatar.jpg" alt="Tomi Juutilainen's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        Tomi Juutilainen
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="mailto: Tomi-Juutilainen@pm.me" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                Home
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    Archives
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2022/08/">August 2022<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2022/05/">May 2022<span class="sidebar_archives-count">1</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                Categories
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                <a class="sidebar_archives-link" href="/categories/%E3%82%B8%E3%83%A7%E3%83%96%E3%82%AC%E3%82%A4%E3%83%89/">ジョブガイド<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/%E6%94%BB%E7%95%A5/">攻略<span class="sidebar_archives-count">1</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/about" title="About">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                About
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/timeline" title="Timeline">
+                
+                    <i class="material-icons sidebar-material-icons">history</i>
+                
+                Timeline
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/links" title="Also see">
+                
+                    <i class="material-icons sidebar-material-icons">book</i>
+                
+                Also see
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
+
+    <!-- Article Number  -->
+    
+        <li>
+            <a href="/archives">
+                Number of articles
+                <span class="sidebar-badge">2</span>
+            </a>
+        </li>
+        
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+
+<!-- Theme Material -->
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/JuutilainenTomi" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+
+    <!-- Google + -->
+    
+        <a href="https://www.youtube.com/channel/UCSOGa9fzkUMcYrMFJ4GK-Zw" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-gplus">
+                <span class="visuallyhidden">Google Plus</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Weibo -->
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/Tomi-Juutilainen" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+        <a href="https://t.me/T_Juutilainen" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-telegram">
+                <span class="visuallyhidden">Telegram</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- V2EX -->
+    
+
+    <!-- Segmentfault -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;<span year></span>&nbsp;Tomi Juutilainen
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?Bn9UzEm8RrBSxqyZB0zPjA==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+    
+        <script>lsloader.load("sm_js","/js/smoothscroll.js?lOy/ACj5suSNi7ZVFVbpFQ==", true)</script>
+    
+
+
+
+
+
+
+
+   <!-- 使用 DISQUS js 代码 -->
+<script id="dsq-count-scr" src="//eosphalerite.disqus.com/count.js" async></script>
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('
+<link rel="stylesheet" href="/css/uc.css">
+');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+
+    
+        <script>lsloader.load("hanabi","/js/hanabi-browser-bundle.js?Pki5+pzkluqu53g+ouMWpA==", true)</script>
+    
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+        
+        
+        HanabiBrowser.start('pre code',true);
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    var copyrightNow = new Date().getFullYear();
+    var textContent = document.querySelector('span[year]')
+
+    copyrightSince = 2022;
+    if (copyrightSince === copyrightNow||copyrightSince === 0000) {
+        textContent.textContent = copyrightNow
+    } else {
+        textContent.textContent = copyrightSince + ' - ' + copyrightNow
+    }
+
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.6 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>
